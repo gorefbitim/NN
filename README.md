@@ -3,18 +3,23 @@
 # Files
 
 SkyLine.ipynb    - analysis notebook
+
 BigQuery.sql     - sql query used to prepare git and weather data from
                    google repo
+
 commits_noaa.csv - data
+
 nn_reg.py        - python functions code
+
 requirements.txt - pip packages file
+
 commit_tz.csv    - timezone commits data
 
 # Assumption
-(1) We discretize by date , and so the data is basically #commits/day ,
-    or 360 / year
+(1) We discretize by date , and so the data is basically #commits/day. We
+    thus work with one row of data per day - total of ~150KB
     
-(2) We have both committer and author date - I decided to use committer
+(2) Github has both committer and author date - I decided to use committer
 
 (3) People 'committed' as early as 1970, 1971, and all the way through 2100,
     and so I took only 2010-2016
