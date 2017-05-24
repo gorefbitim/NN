@@ -44,13 +44,13 @@ Neural network model using keras with TensorFlow.
 # Results
 (1) Correlation is unsuccessful: Results: 2249.43 (1556.20) MSE
 
-(2) A very clear Weekends / Holiday trend:
+(2) A very clear Weekends / Holidays trend:
 
-(2a) A very strong weekly cycle, with weakest day always Saturday, Sunday is 
+(2a) A weekly cycle, with weakest day always Saturday, Sunday is 
      always slightly higher, and Tuesday always busiest, see figure 2.
 
-(2b) The weekest days every year is cristmest and new year's eve, see figure
-     3 x=2185 is Dec 25, and x=2194 is Jan 1st 2015 (indeed, programmers 
+(2b) The weekest days every year are christmas and new year's eve, see figure
+     3. where x=2185 is Dec 25, and x=2194 is Jan 1st 2015 (indeed, programmers 
      do have life...)
 
 The data show a clear weekly period , with lowest number of commits every weekend.
